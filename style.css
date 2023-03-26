@@ -188,6 +188,10 @@ header {
   margin-top: 261px;
 }
 
+.circle {
+  display: none;
+}
+
 .item2-2 {
   display: flex;
   flex-direction: column;
@@ -472,6 +476,14 @@ svg:hover path {
     display: block;
     position: absolute;
     top: -55px;
+    left: 150px;
+  }
+
+  .circle {
+    position: absolute;
+    display: block;
+    top: 13px;
+    left: 23px;
   }
 
   .mob-arc1 {
